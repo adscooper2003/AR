@@ -6,7 +6,7 @@
     <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/dist/mindar-image-aframe.prod.js"></script>
   </head>
   <body>
-    <a-scene mindar-image="imageTargetSrc: ./Marker.mind;" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+    <a-scene mindar-image="imageTargetSrc: ./Marker.mind;" filterMinCF:0.0001; filterBeta: 0.001; vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
       <a-assets>
   <img id="card" src="will vs oscars.jpg" />
 </a-assets>
